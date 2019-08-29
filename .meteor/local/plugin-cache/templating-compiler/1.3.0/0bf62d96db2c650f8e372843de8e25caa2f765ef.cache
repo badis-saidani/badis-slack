@@ -1,0 +1,1 @@
+{"head":"<title>Tweeter v1</title>","body":"","js":"\nTemplate.body.addContent((function() {\n  var view = this;\n  return [ Spacebars.include(view.lookupTemplate(\"createPost\")), \"\\n  \", Spacebars.include(view.lookupTemplate(\"loadPost\")) ];\n}));\nMeteor.startup(Template.body.renderToDocument);\n","bodyAttrs":{}}

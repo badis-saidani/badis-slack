@@ -1,0 +1,51 @@
+.createPost{
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+    
+}
+
+.username{
+  width:100%;
+  margin-bottom: 10px;
+  padding:2px;
+}
+
+.postText{
+  width: 74%;
+  padding: 2px;
+    border: 2px;
+ height:40px;
+    float: left;
+}
+
+.createPostBttn{
+  width:24%;
+    height:40px;
+    float: right;
+    
+  
+}
+
+
+.postCon{
+  width: 50%;
+  margin: auto;
+  margin-top:17px;
+}
+
+
+.postAuthor{
+  width:100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: skyblue;
+}
+
+.postMs{
+  width:100%;
+  background-color:cadetblue;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: white;
+}

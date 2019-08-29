@@ -1,0 +1,16 @@
+<template name="loadPost">
+    {{> loginButtons align="right"}}
+    
+    {{#each posts}}
+    
+      <div class="postCon">
+        <div class="postAuthor">
+          {{> loadUser}}
+          </div>
+          
+        <div class="postMsg">
+          {{msg}}
+        </div>
+    </div>
+    {{/each}}
+</template>

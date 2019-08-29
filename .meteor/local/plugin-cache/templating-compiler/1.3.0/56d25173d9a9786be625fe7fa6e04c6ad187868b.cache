@@ -1,0 +1,1 @@
+{"head":"<title>Slack Badis</title>","body":"","js":"\nTemplate.body.addContent((function() {\n  var view = this;\n  return [ Spacebars.include(view.lookupTemplate(\"loadPost\")), HTML.Raw(\"\\n    <div><br></div>\\n  \"), Spacebars.include(view.lookupTemplate(\"createPost\")) ];\n}));\nMeteor.startup(Template.body.renderToDocument);\n","bodyAttrs":{}}
